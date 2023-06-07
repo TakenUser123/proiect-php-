@@ -1,0 +1,68 @@
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: lightblue;
+   margin: 0;
+   padding: 0;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+#box {
+   background-color: #87CEFA; /* Change to a different shade of blue */
+   width: 300px;
+   padding: 20px;
+   text-align: center;
+}
+
+#text {
+   height: 25px;
+   border-radius: 5px;
+   padding: 4px;
+   border: solid thin #aaa;
+   width: 100%;
+   margin-bottom: 10px;
+   font-size: 16px; /* Increase font size */
+   font-weight: bold; /* Add bold font weight */
+}
+
+#button {
+   padding: 10px;
+   width: 100px;
+   color: white;
+   background-color: lightblue;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   font-size: 16px; /* Increase font size */
+   font-weight: bold; /* Add bold font weight */
+}
+
+#button:hover {
+   background-color: #0099cc;
+}
+
+label {
+   display: block;
+   margin-bottom: 5px;
+}
+
+span {
+   color: #f00;
+   text-align: center;
+   display: block;
+   margin-top: 10px;
+   font-size: 16px; /* Increase font size */
+   font-weight: bold; /* Add bold font weight */
+}
+
+h2 {
+   margin-bottom: 20px; /* Add space between "Login" and the rest of the form */
+   font-size: 24px; /* Increase font size */
+   font-weight: bold; /* Add bold font weight */
+}
